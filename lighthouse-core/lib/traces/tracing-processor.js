@@ -9,7 +9,8 @@
 // first frame of the response.
 const BASE_RESPONSE_LATENCY = 16;
 const SCHEDULABLE_TASK_TITLE = 'TaskQueueManager::ProcessTaskFromWorkQueue';
-const SCHEDULABLE_TASK_TITLE_ALT = 'ThreadControllerImpl::DoWork';
+const SCHEDULABLE_TASK_TITLE_ALT1 = 'ThreadControllerImpl::DoWork';
+const SCHEDULABLE_TASK_TITLE_ALT2 = 'ThreadControllerImpl::RunTask';
 const LHError = require('../errors');
 
 class TraceProcessor {
@@ -222,7 +223,9 @@ class TraceProcessor {
    * @return {boolean}
    */
   static isScheduleableTask(evt) {
-    return evt.name === SCHEDULABLE_TASK_TITLE || evt.name === SCHEDULABLE_TASK_TITLE_ALT;
+    return evt.name === SCHEDULABLE_TASK_TITLE ||
+      evt.name === SCHEDULABLE_TASK_TITLE_ALT1 ||
+      evt.name === SCHEDULABLE_TASK_TITLE_ALT2;
   }
 }
 
