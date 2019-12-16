@@ -1026,9 +1026,10 @@ chrome-devtools-frontend@1.0.401423:
   version "1.0.401423"
   resolved "https://registry.yarnpkg.com/chrome-devtools-frontend/-/chrome-devtools-frontend-1.0.401423.tgz#32a89b8d04e378a494be3c8d63271703be1c04ea"
 
-chrome-devtools-frontend@1.0.422034:
-  version "1.0.422034"
-  resolved "https://registry.yarnpkg.com/chrome-devtools-frontend/-/chrome-devtools-frontend-1.0.422034.tgz#071c8ce14466b7653032fcd1ad1a4a68d5e3cbd9"
+chrome-devtools-frontend@1.0.708769:
+  version "1.0.708769"
+  resolved "https://registry.yarnpkg.com/chrome-devtools-frontend/-/chrome-devtools-frontend-1.0.708769.tgz#2210edfd7923c64dc0453ab89dbb560983cea91d"
+  integrity sha512-P32BUwvIxdbnJjW3Mz3Vr19UB9j2IH9PlZ83u/q2Qb7LEjCY3BRPCFqbG192lWQUfYhq8+gLVDMQFEdE8f9vWg==
 
 chrome-launcher@^0.10.2:
   version "0.10.2"
